@@ -99,3 +99,38 @@ div{
 	text-align: right;
 	justify-content: right;
 }
+
+.container {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-weight: 200;
+	background-color: black;
+	color: floralwhite;
+	padding: 4vw;
+	text-align: center;
+	justify-content: center;
+}
+
+.images {
+	width: 400px;
+	height: 100 px;
+	margin: 4vw;
+	float: left;
+	padding: 2vw;
+}
+
+.images2 {
+	width: 400px;
+	height: 100 px;
+	margin: 4vw;
+	float: right;
+	padding: 2vw;
+}
+
+.positioned{
+	position: sticky;
+	margin-top: 80vw;
+	margin-bottom: 2vw;
+	background-color: black;
+	color: floralwhite;
+	border: black solid 2px;
+}
