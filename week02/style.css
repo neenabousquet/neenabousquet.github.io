@@ -1,7 +1,101 @@
-title{font-size: 500 px; background-color: white;}
+title{
+	font-size: 500 px; 
+	background-color: white;
+}
 
-body{background-color: gold; 
+body{
+	background-color: tan; 
 	font-size: 200 px; 
-	font-family: Helvetica, serif;
+}
 
+#thebody {
+	background-color: black; 
+	font-size: 200 px; 
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 200 px;
+	text-anchor: start;
+	color: white;
+	border: gold solid 20 px;
+}
+
+h2{
+	background-color: floralwhite;
+	color: floralwhite;
+}
+
+p {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-weight: 200;
+	background-color: tan;
+	font-size: 150 px;
+	text-anchor: middle;
+	text-align: center;
+	color: whitesmoke;
+}
+
+main{
+	justify-content: center;
+	display: flex;
+}
+
+img{
+	width: 200px;
+	height: 50 px;
+	margin: 4vw;
+	border: white 2px solid;
+	image-orientation: center;
+
+}
+
+div{
+	display: flex;
+	justify-content: center;
+	border: floralwhite 10px solid;
+	color: floralwhite;
+	background-color: floralwhite;
+}
+
+#thelink {
+	color: floralwhite;
+	text-align: right;
+	font-family: 'Anton', sans-serif;
+	border: black 5px;
+	justify-content: right;
+
+}
+
+.theparagraph {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-weight: 100;
+	background-color: tan;
+	color: floralwhite;
+	border: black 4px solid;
+	padding: 3vw;
+	margin: 4vw;
+	justify-content: center;
+}
+
+#thefruits {
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 200 px;
+	text-anchor: start;
+	background-color: black;
+	color: white;
+	border: grey solid 40 px;
+	padding: 1vw;
+}
+
+#pear {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-weight: 100;
+	background-color: white;
+	color: black;
+	padding: 1vw;
+	text-align: right;
+	justify-content: right;
 }

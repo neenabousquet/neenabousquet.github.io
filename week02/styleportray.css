@@ -1,5 +1,26 @@
-body{background-color: black; 
-	font-size: 150 px; 
-	font-family: Helvetica;
-	font-style: italic;
-	font-color: white;}
+body{
+	background-color: black; 
+}
+
+p{
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 300 px;
+	text-align: center;
+	text-anchor: end;
+	color: floralwhite;
+	margin-top: 55vw;
+	margin-bottom: 2vw;
+}
+
+a{
+	color: black;
+	transition: all 0.4s linear;
+}
+
+a:hover {
+	color: floralwhite;
+}
+
+
+
+
