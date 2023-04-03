@@ -1,0 +1,26 @@
+h1{
+	color: Black;
+	font-family: Helvatica;
+}
+
+body{
+	background-color:darkgrey;
+}
+
+p{
+	color:black;
+}
+
+.gridcontainer{
+	display:grid;
+	grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 1fr 10px;
+	grid-template-rows: 10px 10px 20px 20px 1fr 10px;
+	gap: 2px;
+}
+
+.filename{
+	grid-column-start: 2;
+	grid-column-end: 9;
+	grid-row: 1;
+}
+
