@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	background: #A81BE4;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	border-bottom: 1px solid whitesmoke;
+}
+
+header nav a{
+	padding: 10px 20px;
+	font-size: 2rem;
+	color: whitesmoke;
+	border-radius: 5px;
+	letter-spacing: 0.5px;
+}
+
+header nav a:hover
+header nav a.active {
+	background: #E41BBC;
+	color: whitesmoke;
+	transition: 0.5s ease-out;
+	letter-spacing: 2px;
+}
+
+body{
+	background: #E41B57;
+}
+
+section{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section:nth-child(1) {
+	color: whitesmoke;
+}
+
+section:nth-child(2) {
+	color: #E41B57;
+	background: whitesmoke;
+}
+
+section:nth-child(3) {
+	color: whitesmoke;
+}
+
+section:nth-child(4) {
+	color: #E41B57;
+	background: whitesmoke;
+}
+
+section:nth-child(5) {
+	color: whitesmoke;
+}
+
+section .container{
+	margin: 100px;
+}
+
+section h1{
+	font-size: 3rem;
+	margin: 20px;
+}
+
+section h2{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section .text-container{
+	display: flex;
+}
+
+section .text-container .text-box{
+	margin: 20px;
+	padding: 20px;
+	background: #E41BBC;
+}
+
+section .text-container .text-box h3 {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+	section h1{
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	section .text-container {
+		flex-direction: column;
+	}
+}
+
+.reveal{
+	position: relative;
+	transform: translateY(150px);
+	opacity: 1;
+	transition: 2s all ease;
+}
+
+.reveal.active{
+	transition: translateY(0);
+	opacity: 100;
+}

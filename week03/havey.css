@@ -22,5 +22,10 @@ p{
 	grid-column-start: 2;
 	grid-column-end: 9;
 	grid-row: 1;
+	background-color: grey;
+	font-family: times new roman;
+	font-size: 12px;
 }
+
+
 
